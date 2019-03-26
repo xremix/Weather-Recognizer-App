@@ -16,4 +16,4 @@ The App classifies the following weather types
 It can pic up images from the `camera` or `photo roll`
 
 
-![screenshot](docs/screenshot.jpeg)
+![screenshot](sources/screenshot.jpeg)

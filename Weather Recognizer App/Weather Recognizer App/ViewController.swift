@@ -10,11 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var libraryButton: UIButton!
+    @IBOutlet weak var cameraButton: UIButton!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var resultLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUI()
         // Do any additional setup after loading the view.
+    }
+
+    func setupUI(){
+//        let blue = UIColor(hue: 202, saturation: 100, brightness: 100, alpha: 255)
+        let blue = UIColor(displayP3Red: 0/255.0, green: 160/255, blue: 255/255, alpha: 1)
+        self.navigationController?.navigationBar.barTintColor = blue
+        self.navigationController?.navigationBar.isTranslucent = false
+        libraryButton.layer.cornerRadius = 4
+        cameraButton.layer.cornerRadius = 4
+        imageView.layer.cornerRadius = 4
     }
 
     @IBAction func cameraClicked(_ sender: Any) {

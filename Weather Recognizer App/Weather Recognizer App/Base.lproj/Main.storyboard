@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-1614" y="25"/>
         </scene>
-        <!--Weather Recognizer-->
+        <!--AI Weather-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Weather_Recognizer_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -109,7 +109,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Weather Recognizer" id="cfZ-db-wqr"/>
+                    <navigationItem key="navigationItem" title="AI Weather" id="cfZ-db-wqr"/>
                     <connections>
                         <outlet property="cameraButton" destination="CIO-ao-sh6" id="665-RL-Bhx"/>
                         <outlet property="imageView" destination="BKo-OD-EVi" id="OVP-nk-NLu"/>

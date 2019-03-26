@@ -14,9 +14,9 @@
 		64B669E0224A35820022F7AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B669DE224A35820022F7AE /* LaunchScreen.storyboard */; };
 		64B669EB224A35820022F7AE /* Weather_Recognizer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B669EA224A35820022F7AE /* Weather_Recognizer_AppTests.swift */; };
 		64B669F6224A35820022F7AE /* Weather_Recognizer_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B669F5224A35820022F7AE /* Weather_Recognizer_AppUITests.swift */; };
-		64B66A04224A39FF0022F7AE /* WeatherImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64B66A03224A39FF0022F7AE /* WeatherImageClassifier.mlmodel */; };
 		64B66A06224A3DEA0022F7AE /* ImageRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B66A05224A3DEA0022F7AE /* ImageRecognizer.swift */; };
 		64B66A08224A3E640022F7AE /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B66A07224A3E640022F7AE /* ImageProcessor.swift */; };
+		64B66A0C224A674F0022F7AE /* WeatherImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64B66A0B224A674F0022F7AE /* WeatherImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		64B669F1224A35820022F7AE /* Weather Recognizer AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather Recognizer AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B669F5224A35820022F7AE /* Weather_Recognizer_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Recognizer_AppUITests.swift; sourceTree = "<group>"; };
 		64B669F7224A35820022F7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64B66A03224A39FF0022F7AE /* WeatherImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = WeatherImageClassifier.mlmodel; sourceTree = "<group>"; };
 		64B66A05224A3DEA0022F7AE /* ImageRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognizer.swift; sourceTree = "<group>"; };
 		64B66A07224A3E640022F7AE /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		64B66A0B224A674F0022F7AE /* WeatherImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = WeatherImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 		64B669D4224A35820022F7AE /* Weather Recognizer App */ = {
 			isa = PBXGroup;
 			children = (
+				64B66A0B224A674F0022F7AE /* WeatherImageClassifier.mlmodel */,
 				64B66A07224A3E640022F7AE /* ImageProcessor.swift */,
-				64B66A03224A39FF0022F7AE /* WeatherImageClassifier.mlmodel */,
 				64B669D5224A35820022F7AE /* AppDelegate.swift */,
 				64B669D7224A35820022F7AE /* ViewController.swift */,
 				64B669D9224A35820022F7AE /* Main.storyboard */,
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64B66A04224A39FF0022F7AE /* WeatherImageClassifier.mlmodel in Sources */,
+				64B66A0C224A674F0022F7AE /* WeatherImageClassifier.mlmodel in Sources */,
 				64B669D8224A35820022F7AE /* ViewController.swift in Sources */,
 				64B66A08224A3E640022F7AE /* ImageProcessor.swift in Sources */,
 				64B669D6224A35820022F7AE /* AppDelegate.swift in Sources */,

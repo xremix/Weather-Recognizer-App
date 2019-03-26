@@ -13,7 +13,6 @@ class ImageRecognizer: NSObject {
         let classifier = WeatherImageClassifier()
         do{
             let result = try classifier.prediction(image: ImageProcessor.pixelBuffer(forImage: image.cgImage!)!)
-
             return result
         }catch{
 

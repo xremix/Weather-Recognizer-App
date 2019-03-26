@@ -1,3 +1,5 @@
-import Cocoa
+import CreateMLUI
 
-var str = "Hello, playground"
+var classifier = MLImageClassifierBuilder()
+
+classifier.showInLiveView()
